@@ -1,0 +1,126 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+:root{
+    --primary-color:#6C63FF;
+    --dark-gray:#687280; 
+    --off-white:#F3F4F6;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Andika New Basic', sans-serif;
+}
+.navigation{
+    background-color:var(--primary-color) ;
+    color:white;
+    padding:2rem;
+    border-radius: 0 0 1rem 1rem;
+    /* or 
+    border-bottom-left-radius: 1rem; */
+}
+.container-nav{
+    padding: 2rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: medium;
+}
+.nav-pills{
+    text-align: right;
+    /* float: right; */
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding:1rem;
+}
+.link{
+    color:white;
+    text-decoration: none;
+    margin:auto;
+    text-align: center;
+}
+.link-primary{
+    color:white;
+    display: block;
+    margin:1rem 1rem 1rem 0rem;
+    max-width: 100px;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    background-color: var(--primary-color);
+}
+.link-secondary{
+    display: block;
+    color:blueviolet;
+    margin:1rem 1rem 1rem 0rem;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    max-width: 100px;
+    border: 1px solid blueviolet;
+}
+.hero{
+    padding:2rem;
+    text-align: center;
+}
+.hero .hero-img{
+    max-width:400px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color:var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+.container{
+    padding:0rem 1rem;
+    line-height:2;
+}
+.container-middle{
+    max-width: 600px;
+    margin:auto;
+}
+.section{
+    padding:2rem;
+}
+.section-color{
+    background-color: var(--off-white);
+}
+.footer{
+    background-color:var(--primary-color) ;
+    text-align: center;
+    color:white;
+    padding:2rem;
+    line-height:2;
+    border-radius:1rem 1rem 0 0;
+    font-size:1rem;
+}
+.fa-instagram{
+    color: #ff3568;
+}
+.fa-github{
+    color:black;
+}
+.fa-linkedin{
+    color:blue;
+}
+.footer hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer h3{
+    color:#000000;
+}
+.pro-lang{
+    font-weight: bold;
+}
