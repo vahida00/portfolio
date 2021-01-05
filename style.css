@@ -1,8 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Montserrat:wght@500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
-*{
+html,body{
     padding: 0;
-    margin: 2px;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 :root{
     --primary-color:#6C63FF;
@@ -12,6 +15,7 @@
 body{
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Andika New Basic', sans-serif;
+    width:100%;
 }
 .navigation{
     background-color:var(--primary-color) ;
