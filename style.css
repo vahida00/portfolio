@@ -55,7 +55,7 @@ body{
 }
 .link-primary{
     color:white;
-    display: block;
+    display:inline;
     margin:1rem 1rem 1rem 0rem;
     max-width: 100px;
     border-radius: 0.5rem;
@@ -63,7 +63,7 @@ body{
     background-color: var(--primary-color);
 }
 .link-secondary{
-    display: block;
+    display:inline;
     color:blueviolet;
     margin:1rem 1rem 1rem 0rem;
     border-radius: 0.5rem;
